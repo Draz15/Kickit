@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color: #FFFD8F;
+    height: 100%;
+}
+.divcolor{
+    width: 800px;
+    background-color: #B0CE88;
+    border: 1px solid black;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.divcolor.one{
+    height:650px;
+    text-align: center;
+}
+.divcolor.one .pp{
+    height: 100px;
+    width: 450px;
+    margin-left: 150px;
+   border-radius:12px;
+   margin-top: 30px;
+}
+.pho{
+    margin-top: 20px;
+}
+.divcolor.one .pp:hover{
+    background-color: #FFFD8F;
+}
+.divcolor.one .pp h1{
+    background-color:#4C763B;
+    color: white;
+}
+.divcolor.one img{
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    opacity: .9;
+    transition: .4s linear;
+}
+.divcolor.one img:hover{
+    border: 4px dotted #FFFD8F;
+    filter: sepia(40%);
+}
+.divcolor.two{
+    height: 200px;
+}
+.divcolor.two h2,
+.divcolor.three p{
+    margin-left: 24px;
+}
+.divcolor.two ul li,
+.divcolor.three ol li{
+    margin-top: 10px;
+    width: 500px;
+    height: 20px;
+    transition: .3s ease-in;
+}
+.divcolor.three{
+    height: 600px;
+}
+.divcolor.three h2{
+text-align: center;
+}
+.divcolor.two ul li:hover,
+.divcolor.three ol li a:hover{
+    background-color: #FFFD8F;
+    list-style: none;
+    color: #4C763B;
+    box-shadow:  5px 3px 5px 4px rgba(0, 0, 0, 0.311);
+}
+.btn{
+    width: 100%;
+    text-align: center;
+}
+.divcolor.three textarea{
+    max-width: 700px;
+    max-height: 300px;
+    height: 300px;
+    border-radius: 10px;
+   text-align: start;
+   box-shadow:  5px 10px 5px 10px rgba(0, 0, 0, 0.406);
+}
+button{
+    margin-top: 5px;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #043915;
+    color: #B0CE88;
+    font-size: 20px;
+}
+button:hover{
+    background-color: #B0CE88;
+    color:white;
+    border-color:  white;
+    background-position: 200% 200%;
+    animation: btn .7s ease-in infinite alternate;
+}
+@keyframes btn{
+    0%{
+        background :linear-gradient(to right, rgba(255, 255, 255, 0.24)
+        ,rgba(40, 216, 40, 0.715),rgb(20, 144, 185)) ;
+        background-position: 0% 50%;
+    }
+    100%{background :linear-gradient(to left, rgba(205, 100, 100, 0.24)
+        ,rgba(32, 62, 197, 0.715),rgb(51, 188, 234)) ;
+     background-position: 50% 100%;}
+}

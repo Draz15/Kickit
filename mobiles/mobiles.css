@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #CD2C58;
+     height: 100%;
+     text-align: center;
+}
+.headline{
+    margin: 50px 0;
+}
+.headline h1{
+    color: #FFC69D;
+    margin-bottom:40px ;
+    text-transform: capitalize;
+}
+span{
+    color:#4E61D3;
+    font-size: 30px;
+}
+.headline p{
+    width: 750px;
+    color: #FFE6D4;
+    margin: auto;
+}
+.box{
+    width: 280px;
+    height: 550px;
+    background-color: #E06B80;
+    margin: 15px;
+    border-radius: 9px;
+    float: left;
+}
+.box h2{
+    color: #fff;
+    text-transform:capitalize ;
+    margin: 9px 0 30px 0;
+}
+.box p{
+     color: #FFE6D4;
+     line-height: 25px;
+     font-size: 15px;
+     font-style: oblique;
+}
+.box .back{
+width: 100%;
+height: 250px;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+.back.one{
+    background-image: url(../pictures/72b8ac30741013038323a240d6bf91e4.jpg);
+}
+.back.two{
+    background-image: url(../pictures/9da13727c011330078213a1f894243aa.jpg);
+     padding-top: 6px;
+}
+.back.three{
+    background-image: url(../pictures/5fedb449ab9768d2c49c4f7313ffda59.jpg);
+}
+.back.four{
+    background-image: url(../pictures/9bd5da5b0e78111f655f3ce54950e170.jpg);
+}
+.text{
+    width: 200px;
+    margin: auto;
+}
+button{
+    margin-top: 22px;
+    margin-bottom: 10px;
+    height: 50px;
+    width: 150px;
+    border-radius: 7px;
+    background-color: #fff;
+    color: #fff;
+    border: none;
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 300;
+}
+.ones{
+    background-color: #CD2C58;
+    color: #fff; 
+}
+.ones:hover{
+     background-color: #fff;
+    color: #CD2C58;
+    border:2px solid #CD2C58;
+}
+.twos{
+   background-color: #FFF58A;
+    color: #fff; 
+}
+.twos:hover{
+     background-color: #fff;
+    color: #FFF58A;
+    border:2px solid #FFF58A;
+}
+.threes{
+    background-color: #016B61;
+    color: #fff;
+    
+}
+.threes:hover{
+     background-color: #fff;
+    color: #016B61;
+    border:2px solid #016B61;
+}
+.fours{
+     background-color: #4E61D3;
+     color: #fff;
+}
+.fours:hover{
+     background-color: #fff;
+    color: #4E61D3;
+    border:2px solid #4E61D3;
+}

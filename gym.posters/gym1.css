@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.div0{
+height: 100%;
+background:url(../pictures/Gym\ equipment\ fitness\ sports\ determination….jpg) no-repeat center / cover ;
+}
+.owner1{
+    width: 1000px;
+    height: 700px;
+    border-radius: 15px;
+    border: 3px solid #fff;
+    margin: auto; 
+   background:url(../pictures/kevin\ levrone\ sad\ pfp.jpg) no-repeat center / cover ;
+}
+.owner2{
+width: 760px;
+height: 85%;
+border-radius: 15px;
+border: 2px dotted #fff;
+margin: auto; 
+text-align: center;
+  background:url(../pictures/Primeiro\ Dia\ de\ Academia\ 10\ Dicas\ Pra\ Resultados\ IMEDIATOS.jpg) no-repeat center / cover ;
+}
+.owner2:hover{background-image: url(../pictures/Bla.jpg);}
+
+.owner3{
+  width: 600px;
+  height: 89%;
+  border-radius: 12px;
+  margin: auto;
+  border: 2px solid #fff;
+ background: url(../pictures/download.jpg) no-repeat center/cover ;
+}
+.owner3 .statement{
+  height: 197px;
+  width: 93%;
+  border-radius:10px;
+  font-size: 13px;
+  margin: 15px;
+  border: 1px dashed white;
+}
+.statement .artical{
+  width:300px ;
+  height: 140px;
+  background-color: cadetblue; 
+  border-radius: 9px;
+  margin: 15px 0px ;
+  padding-top: 9px;
+}
+.statement .artical:hover{
+  background-color: rgb(35, 6, 54);
+  color:#fff;
+}
+p{
+  color:#fff;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.artical.one{
+  float: right;
+}
+.artical.two{
+  float: left;
+}
+/* .statement .img1{
+width: 249px;
+height: 140px;
+border-radius: 4px;
+margin: 15px 0;
+background-size: cover;
+background-position: center;
+ }
+.statement .img1.one{
+  margin: 15px 0 15px 3px;
+  background-image: url(../pictures/download.jpg);
+  float: left;
+}
+.statement .img1.two{
+  float:right;
+  margin: 15px 3px 15px 0 ;
+  background-image: url(../pictures/David\ goggins\ motivational\ wallpaper.jpg);
+}  */
+.statement .img1.two .img2{
+  width: 80px;
+  margin: 30px 80px 0 0;
+  height: 80px;
+  border-radius: 50%;
+ background: url(../pictures/download.jpg);
+  float: right;
+  background-size: cover;
+  background-position: right;
+ background-attachment: fixed;
+
+}
+.statement .img1.one .img2{
+  width: 80px;
+  margin-top: 30px ;
+  margin-left:40px ;
+  
+  height: 80px;
+  border-radius: 50%;
+ background: url(../pictures/download.jpg);
+  float: left;
+  background-size: cover;
+ background-attachment: fixed;
+}

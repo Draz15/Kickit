@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #B6AE9F;
+    text-align: center;
+}
+.title{
+    margin-top: 30px;
+    width: 550px;
+    height: 50px;
+    background-color: #C5C7BC;
+    margin: auto;
+    color:#000;
+    border-radius: 4px;
+}
+.items{
+    margin-top: 30px;
+    margin-top: 40px;
+    width: 1000px;
+    height: 410px;
+    border-radius: 20px;
+    margin: auto;
+    background-color: #C5C7BC;
+}
+.discount{
+    width: 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.discount.one{
+    background-image: url(../pictures/images.jpg);
+}
+.discount.two{
+    background-image: url(../pictures/download\ \(1\).jpg);
+}
+.discount.three{
+    background-image: url(../pictures/images.jpg);
+}
+.product{
+  height: 370px;
+  width: 300px;
+  background: #FBF3D1;
+  margin: 13px;
+  border-radius: 10px;
+  float: left;
+}
+.product.one{
+    margin-left: 30px;
+}
+h2 {
+    width: 145px;
+    height: 35px;
+    background-color: #C5C7BC;
+    margin: auto;
+    color: #000;
+    font-size: 20px;
+    line-height: 28px; 
+    text-align: center;
+    font-weight: 900;
+}
+
+h2 a {
+    width: 30%; 
+    height: 100%;
+    padding: 0 10px 7px 5px;
+    background-color: yellow;
+    color: #000;
+    text-decoration: none;
+    font-size: 26px;
+    
+}
+.dis{
+    padding-right: 14px;
+}
+.dis.one{
+    padding-right: 15px;
+}
+a:hover{
+    background-color: #FBF3D1;
+}
+.product p a{
+    line-height: 30px;
+} 
+.product button{
+    margin-top: 5px;
+    width: 100px;
+    height: 40px;
+    background: #FBF3D1;
+    color: #000;
+    border-radius: 6px;
+    border: 2px solid #000;
+}
+.product button:hover {
+    color: rgb(8, 123, 161);
+    background-color:white;
+}
+button{
+ margin-top: 30px;
+ width: 400px;
+ height: 50px;
+ background-color: #C5C7BC; ;
+ border: 3px dotted black;
+}
+.background{
+    margin-top: 60px;
+    border-top: 3px solid #000 ;
+    height: 400px;
+    width: 100%;
+    background-image: url(../pictures/images\ \(1\).jpg) ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 70px 0 0 30px;
+}
+
+
+

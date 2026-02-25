@@ -1,0 +1,59 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  background:-webkit-linear-gradient( top,#DDF0FF,#6699C6,#0077b6);
+  height: 100vh;
+}
+.animation{
+    height: 70px;
+    width: 200px;
+    border-radius: 10px 10px 10px 10px ;
+    background: -webkit-radial-gradient(circle, #FAFBFF ,#00b4d8) ;
+    margin: 20px 4px;
+    box-shadow: 6px 5px 12px 8px #fff ;
+    text-align: center;
+    padding-top: 15px;
+    position:absolute;
+}
+.one{top: 2%;}
+.two{top: 16%;}
+.three{top: 30%;}
+.four{top: 44%;}
+.five{top: 59%;}
+.six{top: 75%;}
+.animation.shift{right: 0; margin-left: auto;}
+.animation p{
+    color: #f4f9ef ;
+    font-size: 22px;
+    text-shadow: 6px 4px 7px rgb(42, 42, 44);
+}
+.animation.one{animation: one 3s ease-in-out forwards  ;}
+.one p{animation: one 3s ease-in-out forwards ;}
+.animation.three{animation: one 3s ease-in-out 6s  1 forwards;}
+.animation.three p{animation: one 3s ease-in-out 6s  1 forwards;}
+.animation.five{animation: one 3s ease-in-out 12s  1 forwards;}
+.animation.five p{animation: one 3s ease-in 12s  1 forwards;}
+@keyframes one {
+    0%{ left: 0; background: -webkit-linear-gradient( bottom, circle , #FAFBFF ,#00b4d8);}
+    25%{background: -webkit-linear-gradient(  cicle , #FAFBFF ,#00b4d8); ;color: #e58181;}
+    50%{background: -webkit-linear-gradient( 70% 20% circle , #FAFBFF ,#00b4d8); color:#d64f4f;}
+    75%{background: -webkit-linear-gradient( 20% ,cicle , #FAFBFF ,#00b4d8);color: #d83f0c }
+    100%{background: -webkit-linear-gradient( 30%, cicle , #FAFBFF ,#00b4d8);left: 83%;color: #ed3b00}
+}
+.animation.two{animation: two 3s ease-in-out 3s  1 forwards;}
+.animation.two p{animation: two 3s ease-in-out 3s  1 forwards;}
+.animation.four{animation: two 3s ease-in-out 9s  1 forwards;}
+.animation.four p{animation: two 3s ease-in-out 9s  1 forwards;}
+.animation.six{animation: two 3s ease-in-out 15s  1 forwards;}
+.animation.six p{animation: two 3s ease-in-out 15s  1 forwards;}
+@keyframes two {
+    0%{ right: 0; background: -webkit-linear-gradient( bottom left , #d8f3dc ,#00b4d8);}
+    25%{background: -webkit-linear-gradient(  left , #FAFBFF ,#00b4d8);color: #e58181;}
+    50%{background: -webkit-linear-gradient( top left , #FAFBFF ,#00b4d8); color:#d64f4f;}
+    75%{background: -webkit-linear-gradient( right , #FAFBFF ,#00b4d8);  color: #d83f0c ;}
+    100%{background: -webkit-linear-gradient( bottom right , #FAFBFF ,#00b4d8);right: 83%;color: #ff4000}
+}

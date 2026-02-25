@@ -1,0 +1,19 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+}
+.countlab{display: block; text-align: center; font-size: 4rem; margin: 20px 0;}
+.container{text-align: center;}
+#input1, #age{border-radius: 5px; outline: none; padding: 8px 15px;border: 1 solid;}
+.buttons{ margin: 0 4px; color: #fff; background-color: rgb(47, 112, 234); text-transform: capitalize; transition: background-color .25s;}
+#sup,.buttons,.h > button{padding: 10px 20px; background-color: rgb(64, 52, 142); color: #fff; border-radius: 10px; border: none;}
+.adjust{margin-top: 40px;}
+.buttons:hover,#sup:active,.h > button:active{background-color: rgb(63, 99, 165);}
+input{margin: 0 5px; }
+.checke{margin: 0 10px; display: inline;}
+.h {display: flex; justify-content: space-between;
+  align-items: center;}
+.h > button{display: block;margin: 5px 0;}
+.stop{width: 50%; height: 250px ;margin: auto;}
