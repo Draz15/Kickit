@@ -15,5 +15,5 @@ input{margin: 0 5px; }
 .checke{margin: 0 10px; display: inline;}
 .h {display: flex; justify-content: space-between;
   align-items: center;}
-.h > button{display: block;margin: 5px 0;}
+.h > button{display: block;margin: 5px 0; }
 .stop{width: 50%; height: 250px ;margin: auto;}

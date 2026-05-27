@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Document</title>
+</head>
+
+<body class="text-center font-bold capitalize font-['arial'] bg-gradient-to-r from-blue-200 to-red-300">
+
+    <p class="text-[4.5rem] text-[hsl(200,10%,30%)] bg-gradient-to-r from-blue-700 to-red-700  bg-clip-text text-transparent">rock - paper - scissors</p>
+    <div class=" space-x-16 mt-8">
+        <button onclick="playgame('rock')"
+            class="select-none text-[7rem] w-44 bg-[hsl(100,60%,70%)] rounded-full hover:bg-[hsl(100,60%,60%)] transition-all duration-800">👊</button>
+        <button onclick="playgame('paper')"
+            class="select-none text-[7rem] w-44 bg-[hsl(100,60%,70%)] rounded-full hover:bg-[hsl(100,60%,60%)] transition-all duration-800">🖐</button>
+        <button onclick="playgame('scissors')"
+            class="select-none text-[7rem] w-44 bg-[hsl(100,60%,70%)] rounded-full hover:bg-[hsl(100,60%,60%)] transition-all duration-800">✌</button>
+    </div>
+    <div id="player" class="uppercase text-4xl mt-8 mb-4">player:</div>
+    <div id="computer" class="uppercase text-4xl">computer:</div>
+    <div id="final" class="uppercase text-4xl my-8"></div>
+    <div class="flex justify-center gap-8">
+        <div class=" text-2xl"> Playerpoints : <span  id="Ppoints"  class="text-3xl text-blue-600">0</span></div>
+        <div  class="text-2xl"> ComputerPoint : <span id="Cpoints" class="text-3xl text-red-700">0</span></div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
