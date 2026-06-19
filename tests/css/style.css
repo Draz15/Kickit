@@ -4,6 +4,9 @@
  box-sizing: border-box;
  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
 }
+body{
+  min-height: 3000px;
+}
 .countlab{display: block; text-align: center; font-size: 4rem; margin: 20px 0;}
 .container{text-align: center;}
 #input1, #age{border-radius: 5px; outline: none; padding: 8px 15px;border: 1 solid;}

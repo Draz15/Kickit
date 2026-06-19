@@ -149,54 +149,54 @@ console.log(cardHide("35123413355523"))
 
 
 
-// function Ajax() {
-//     return new Promise((resolve, reject) => {
-//         let Xhttp = new XMLHttpRequest()
-//         Xhttp.onreadystatechange = function () {
-//             if (Xhttp.readyState === 4) {
-//                 if (Xhttp.status === 200) { resolve(JSON.parse(Xhttp.responseText)) }
-//                 else {
-//                     reject(`Error: ${Xhttp.status}`)
-//                 }
-//             }
+function Ajax() {
+    return new Promise((resolve, reject) => {
+        let Xhttp = new XMLHttpRequest()
+        Xhttp.onreadystatechange = function () {
+            if (Xhttp.readyState === 4) {
+                if (Xhttp.status === 200) { resolve(JSON.parse(Xhttp.responseText)) }
+                else {
+                    reject(`Error: ${Xhttp.status}`)
+                }
+            }
 
-//         }
-//         Xhttp.open("GET", "http://127.0.0.1:5500/json/test.json")
-//         Xhttp.send()
-//     })
-// }
+        }
+        Xhttp.open("GET", "http://127.0.0.1:5500/json/test.json")
+        Xhttp.send()
+    })
+}
 
-// function Ajax1() {
-//     return new Promise((resolve, reject) => {
-//         let Xhttp = new XMLHttpRequest()
-//         Xhttp.onreadystatechange = function () {
-//             if (Xhttp.readyState === 4) {
-//                 if (Xhttp.status === 200) { resolve(JSON.parse(this.responseText)) }
-//                 else {
-//                     reject(`Error: ${Xhttp.status}`)
-//                 }
-//             }
-//         }
-//         Xhttp.open("GET", "http://127.0.0.1:5500/json/test.json")
-//         Xhttp.send()
-//     })
-// }
+function Ajax1() {
+    return new Promise((resolve, reject) => {
+        let Xhttp = new XMLHttpRequest()
+        Xhttp.onreadystatechange = function () {
+            if (Xhttp.readyState === 4) {
+                if (Xhttp.status === 200) { resolve(JSON.parse(this.responseText)) }
+                else {
+                    reject(`Error: ${Xhttp.status}`)
+                }
+            }
+        }
+        Xhttp.open("GET", "http://127.0.0.1:5500/json/test.json")
+        Xhttp.send()
+    })
+}
 
-// async function test() {
-//     try {
-//         const ajx = await Ajax()
-//         console.log( ajx.map(value => value.name ))
-//     } catch (err) {
-//         console.error(err)
-//     }
-//     try {
-//         const ajx1 = await Ajax1()
-//         console.log( ajx1.map(value => value.name ))
-//     } catch (err) {
-//         console.error(err)
-//     }
-// }
-// test()
+async function test() {
+    try {
+        const ajx = await Ajax()
+        console.log( ajx.map(value => value.name ))
+    } catch (err) {
+        console.error(err)
+    }
+    try {
+        const ajx1 = await Ajax1()
+        console.log( ajx1.map(value => value.name ))
+    } catch (err) {
+        console.error(err)
+    }
+}
+test()
 
 
 
@@ -215,126 +215,106 @@ console.log(cardHide("35123413355523"))
 // console.log(compact([0, 1, false, 2, "", 3]))
 
 
-class Rectangle {
-    constructor(name, age) {
-        this.name = name
-        this.age = age
-    }
-    getArea() { return `hello ${this.name}` }
-    getPerimeter() { return `${this.age} is good age` }
-}
+// class Rectangle {
+//     constructor(name, age) {
+//         this.name = name
+//         this.age = age
+//     }
+//     getArea() { return `hello ${this.name}` }
+//     getPerimeter() { return `${this.age} is good age` }
+// }
 
 
-class Circle extends Rectangle {
-    constructor(name, age) {
-        super(name, age)
-        this.age = age;
-        this.name = name;
-    }
-}
+// class Circle extends Rectangle {
+//     constructor(name, age) {
+//         super(name, age)
+//         this.age = age;
+//         this.name = name;
+//     }
+// }
 
-let rec = new Rectangle("jo", 20)
-console.log(rec.getPerimeter())
+// let rec = new Rectangle("jo", 20)
+// console.log(rec.getPerimeter())
 
-let circy1 = new Circle("mo", 11)
-console.log(circy1.getPerimeter());
+// let circy1 = new Circle("mo", 11)
+// console.log(circy1.getPerimeter());
 
-let circy = new Circle("hello", 4)
-console.log(circy.getPerimeter());
+// let circy = new Circle("hello", 4)
+// console.log(circy.getPerimeter());
 
 
 
-class Kojo {
-    constructor(name, age) {
-        this.name = name;
-        this.age = age;
-    }
-    set name(name) {
-        if (typeof name === "string") {
-            this._name = name;
-        } else {
-            console.log("Enter Valid Data")
-        }
+// class Kojo {
+//     constructor(name, age) {
+//         this.name = name;
+//         this.age = age;
+//     }
+//     set name(name) {
+//         if (typeof name === "string") {
+//             this._name = name;
+//         } else {
+//             console.log("Enter Valid Data")
+//         }
 
-    }
-    set age(age) {
-        if (typeof age === "number") {
-            this._age = age;
-        } else {
-            console.log("Enter Valid Data")
-        }
-    }
-    ty() {
-        console.log("hi there")
-    }
-    get age() {
-        return this._age
-    }
-    get name() {
-        return this._name
-    }
-}
-const tryy8 = new Kojo("looser", 33);
-console.log(tryy8)
-console.log(tryy8.age)
+//     }
+//     set age(age) {
+//         if (typeof age === "number") {
+//             this._age = age;
+//         } else {
+//             console.log("Enter Valid Data")
+//         }
+//     }
+//     ty() {
+//         console.log("hi there")
+//     }
+//     get age() {
+//         return this._age
+//     }
+//     get name() {
+//         return this._name
+//     }
+// }
+// const tryy8 = new Kojo("looser", 33);
+// console.log(tryy8)
+// console.log(tryy8.age)
 
-class Kajo {
-    #name;
-    #age;
+// class Kajo {
+//     #name;
+//     #age;
 
-    constructor(name, age) {
-        this.name = name; // هيمر على setter
-        this.age = age;
-    }
+//     constructor(name, age) {
+//         this.name = name; // هيمر على setter
+//         this.age = age;
+//     }
 
-    set name(value) {
-        if (typeof value === "string") {
-            this.#name = value;
-        } else {
-            console.log("Enter valid name");
-        }
-    }
+//     set name(value) {
+//         if (typeof value === "string") {
+//             this.#name = value;
+//         } else {
+//             console.log("Enter valid name");
+//         }
+//     }
 
-    get name() {
-        return this.#name;
-    }
+//     get name() {
+//         return this.#name;
+//     }
 
-    set age(value) {
-        if (typeof value === "number") {
-            this.#age = value;
-        } else {
-            console.log("Enter valid age");
-        }
-    }
+//     set age(value) {
+//         if (typeof value === "number") {
+//             this.#age = value;
+//         } else {
+//             console.log("Enter valid age");
+//         }
+//     }
 
-    get age() {
-        return this.#age;
-    }
+//     get age() {
+//         return this.#age;
+//     }
 
-    ty() {
-        return this.age
-    }
-}
-const tryyy = new Kajo("looser", 33);
-console.log(tryyy)
-console.log(typeof tryyy.ty())
-let strff = "hi dude"
+//     ty() {
+//         return this.age
+//     }
+// }
 
-const myFunc = str => {
-
-    if (str.length > 1) {
-
-        return myFunc(str.slice(1));
-
-    }
-
-    return str;
-
-}
-  for(var ff=20;x>=5 ;ff++){
-
-  console.log(ff)
-
- }
 
 
